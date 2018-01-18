@@ -1,3 +1,7 @@
+<script>
+  window.location.href = "https://michaelsboost.github.io/";
+</script>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/mikethedj4/mikethedj4.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
