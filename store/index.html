@@ -1,3 +1,7 @@
 <script>
-  window.location.href = "https://michaelsboost.github.io/store";
+  if (document.domain === "michaelsboost.github.io") {
+    document.body.innerHTML = window.location.toString().replace(/michaelsboost.github.io/g, 'michaelsboost.com');
+  } else if (document.domain === "michaelsboost.github.io") {
+    document.body.innerHTML = window.location.toString().replace(/michaelsboost.tk/g, 'michaelsboost.com');
+  }
 </script>
