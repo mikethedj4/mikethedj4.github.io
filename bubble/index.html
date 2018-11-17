@@ -1,3 +1,7 @@
 <script>
-  window.location.href = window.location.toString().replace(/mikethedj4/g, 'michaelsboost');
-</script>
+  if (document.domain === "mikethedj4.github.io") {
+    window.location.href = window.location.toString().replace(/mikethedj4.github.io/g, 'michaelsboost.github.io');
+  } else if (document.domain === "michaelsboost.tk") {
+    window.location.href = window.location.toString().replace(/michaelsboost.tk/g, 'michaelsboost.github.io');
+  }
+</script> 
